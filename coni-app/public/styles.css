@@ -183,3 +183,6 @@ td.pos { color: #94620d; } td.neg { color: #2b5d8f; }
 .view > * { min-width: 0; }
 .cap { text-transform: none; }
 .cap::first-letter { text-transform: uppercase; }
+.card.highlight { border: 2px solid var(--accent); background: #fff8f2; }
+.prep-note { margin-top: 4px; }
+.btn:disabled { opacity: .35; cursor: default; }

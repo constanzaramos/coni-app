@@ -30,6 +30,7 @@ const ui = {
   view: "hoy",
   taskFilter: "pend",
   comidaTab: "dia",
+  mpWeek: null,       // índice de semana del plan meal prep
   day: null,          // fecha seleccionada en Comida › Día
   weekOffset: 0,      // Comida › Semana
   rango: "dia",       // Comida › Análisis
@@ -160,6 +161,51 @@ async function loadGastos(mes, force = false) {
     // si cambiaste de mes mientras cargaba, carga el mes actual
     if (ui.view === "casa" && !nt.gastos[ui.mes] && !nt.gastosErr) loadGastos(ui.mes);
   }
+}
+
+/* =========================================================
+   Plan meal prep (public/mealprep.json)
+   ========================================================= */
+let MP = null;
+async function loadMP() {
+  if (MP) return;
+  try { MP = await (await fetch("mealprep.json", { cache: "no-cache" })).json(); render(); }
+  catch (e) { console.error("mealprep.json", e); }
+}
+const mpState = () => data.settings.find((s) => s.id === "mealprep") || {};
+const mpDay = (date) => MP?.semanas.flatMap((w) => w.dias).find((d) => d.fecha === date) || null;
+function mpIndex() {
+  if (!MP) return 0;
+  if (ui.mpWeek != null) return ui.mpWeek;
+  const t = today();
+  const i = MP.semanas.findIndex((w) => t <= w.hasta);
+  return i === -1 ? MP.semanas.length - 1 : i;
+}
+const mpSessionToday = () => MP?.semanas.flatMap((w) => w.sesiones).find((s) => s.fecha === today()) || null;
+
+/** Escribe como "planificado" los días del plan meal prep (reemplaza el plan de esas fechas). */
+async function loadMPDays(dias) {
+  const batch = writeBatch(db);
+  const byName = new Map(data.foods.map((f) => [normalize(f.nombre), f.id]));
+  for (const a of MP.alimentos) {
+    if (byName.has(normalize(a.nombre))) continue;
+    const r = doc(col("foods"));
+    batch.set(r, { ...a, createdAt: serverTimestamp() });
+    byName.set(normalize(a.nombre), r.id);
+  }
+  const fechas = new Set(dias.map((d) => d.fecha));
+  data.intake.filter((i) => i.kind === "plan" && fechas.has(i.date)).forEach((i) => batch.delete(ref("intake", i.id)));
+  for (const d of dias) {
+    for (const [slot, items] of Object.entries(d.comidas)) {
+      for (const it of items) {
+        batch.set(doc(col("intake")), {
+          date: d.fecha, slot, kind: "plan", nombre: it.nombre, grams: it.gramos,
+          foodId: byName.get(normalize(it.alimento)) || null, mp: true, createdAt: serverTimestamp(),
+        });
+      }
+    }
+  }
+  await batch.commit();
 }
 
 /* =========================================================
@@ -333,6 +379,15 @@ const views = {
         ${planHoy.kcal || realHoy.kcal ? `<p class="sub mt">Plan ${num(planHoy.kcal)} kcal · Real ${num(realHoy.kcal)} kcal${r ? ` · Meta ${num(r.kcal)} kcal` : ""}</p>` : ""}
       </section>
 
+      ${(() => {
+        const ses = mpSessionToday();
+        const nota = mpDay(t)?.nota;
+        if (!ses && !nota) return "";
+        return `<section class="card ${ses ? "highlight" : "notice"}">
+          ${ses ? `<h2>🥡 Hoy toca meal prep <small><a href="#" data-action="goto-comida" data-v="prep">Ver lista</a></small></h2><p class="sub">Rinde para: ${esc(ses.rinde)}</p>` : `🥡 ${esc(nota)}`}
+        </section>`;
+      })()}
+
       <section class="card">
         <h2>Estudio <small><a href="#" data-action="nav" data-view="estudio">Ver</a></small></h2>
         ${data.goals.length ? data.goals.map((g) => {
@@ -440,7 +495,7 @@ const views = {
   },
 
   comida() {
-    const tabs = miniTabs("ctab", ui.comidaTab, [["dia", "Día"], ["semana", "Semana"], ["analisis", "Análisis"], ["alimentos", "Alimentos"], ["compras", "Compras"]]);
+    const tabs = miniTabs("ctab", ui.comidaTab, [["dia", "Día"], ["prep", "Meal prep"], ["semana", "Semana"], ["analisis", "Análisis"], ["alimentos", "Alimentos"], ["compras", "Compras"]]);
     return tabs + comida[ui.comidaTab]();
   },
 
@@ -618,13 +673,70 @@ function clientesCobros() {
 
 /* ---------- Sub-vistas de Alimentación ---------- */
 const comida = {
+  prep() {
+    if (!MP) return `<p class="empty">Cargando plan…</p>`;
+    const i = mpIndex();
+    const w = MP.semanas[i];
+    const st = mpState().checks || {};
+    const t = today();
+    const fbi = foodsById();
+    const cargada = w.dias.every((d) => itemsOf(d.fecha, "plan").some((x) => x.mp));
+    return `
+      <section class="card">
+        <div class="week-nav">
+          <button class="btn ghost small" data-action="mp-week" data-d="-1" ${i === 0 ? "disabled" : ""}>‹</button>
+          <h2 style="margin:0">Semana ${w.n} <small>${fmtDate(w.desde, { day: "numeric", month: "short" })} – ${fmtDate(w.hasta, { day: "numeric", month: "short" })}</small></h2>
+          <button class="btn ghost small" data-action="mp-week" data-d="1" ${i === MP.semanas.length - 1 ? "disabled" : ""}>›</button>
+        </div>
+        <p class="sub mt">${esc(MP.titulo)} · cocinas domingo y miércoles, el resto de los días solo armas o calientas.</p>
+        <div class="btn-row mt">
+          <button class="btn ${cargada ? "ghost" : "primary"} small" data-action="mp-load" data-v="week">${cargada ? "✓ Cargada · recargar" : "Usar como mi plan"}</button>
+          <button class="btn ghost small" data-action="mp-load" data-v="all">Cargar las 4 semanas</button>
+          <button class="btn ghost small" data-action="mp-shop">Agregar a compras</button>
+        </div>
+      </section>
+
+      ${w.sesiones.map((s) => {
+        const keys = s.cocinar.map((_, j) => `${s.id}-${j}`);
+        const done = keys.filter((k) => st[k]).length;
+        return `<section class="card ${s.fecha === t ? "highlight" : ""}">
+          <h2>🥡 Sesión ${s.dia.toLowerCase()} ${fmtDate(s.fecha, { day: "numeric", month: "short" })} <small>${done}/${keys.length}</small></h2>
+          <p class="sub">Rinde para: ${esc(s.rinde)}</p>
+          ${bar(pct(done, keys.length))}
+          <ul class="list mt">${s.cocinar.map((c, j) => `
+            <li class="item small ${st[keys[j]] ? "done" : ""}"><label>
+              <input type="checkbox" data-action="mp-check" data-k="${keys[j]}" ${st[keys[j]] ? "checked" : ""}>
+              <span class="t">${esc(c)}</span></label></li>`).join("")}</ul>
+        </section>`;
+      }).join("")}
+
+      <section class="card">
+        <h2>Menú de la semana</h2>
+        ${w.dias.map((d) => {
+          const kcal = Object.values(d.comidas).flat().reduce((a, it) => {
+            const f = MP.alimentos.find((x) => x.nombre === it.alimento);
+            return a + (f ? (f.kcal * it.gramos) / 100 : 0);
+          }, 0);
+          return `<div class="day ${d.fecha === t ? "today" : ""}">
+            <h3><a href="#" data-action="open-day" data-v="${d.fecha}">${fmtDate(d.fecha, { weekday: "long", day: "numeric" })}</a><small>≈ ${num(kcal)} kcal</small></h3>
+            ${Object.entries(d.comidas).map(([slot, its]) => `<div class="meal"><b>${slot}</b><span>${esc(its.map((x) => x.nombre).join(", "))}</span></div>`).join("")}
+            <p class="sub prep-note">🥡 ${esc(d.nota)}</p>
+          </div>`;
+        }).join("")}
+        <p class="sub mt">Fuente: tu conversación "${esc(MP.fuente)}". Valores nutricionales referenciales.</p>
+      </section>`;
+  },
+
   dia() {
     const d = ui.day;
     const fbi = foodsById();
     const r = req();
     const plan = sumItems(itemsOf(d, "plan"), fbi);
     const real = sumItems(itemsOf(d, "real"), fbi);
-    const main = new Set(["Desayuno", "Almuerzo", "Once", "Cena"]);
+    const main = new Set(["Desayuno", "Almuerzo", "Once"]);
+    const mpd = mpDay(d);
+    const mpNote = mpd ? `<section class="card notice">🥡 <b>Meal prep:</b> ${esc(mpd.nota)}
+      ${!itemsOf(d, "plan").length ? `<button class="btn ghost small mt" data-action="mp-load-day">Cargar el plan de este día</button>` : ""}</section>` : "";
     return `
       <section class="card">
         <div class="week-nav">
@@ -640,6 +752,7 @@ const comida = {
         ${r ? bar(pct(real.kcal, r.kcal)) : `<p class="sub">Completa tu perfil en <a href="#" data-action="ctab" data-v="analisis">Análisis</a> para calcular tu meta.</p>`}
       </section>
 
+      ${mpNote}
       ${SLOTS.map((s) => {
         const p = itemsOf(d, "plan", s), rl = itemsOf(d, "real", s);
         if (!main.has(s) && !p.length && !rl.length) return "";
@@ -836,6 +949,7 @@ function go(view) {
   render();
   window.scrollTo(0, 0);
   if (view === "hoy" || view === "coramba") loadCoramba();
+  if (view === "hoy" || view === "comida") loadMP();
   if (view === "casa") loadGastos(ui.mes);
 }
 document.querySelector(".tabbar").addEventListener("click", (e) => {
@@ -914,6 +1028,32 @@ const actions = {
   week: (el) => { ui.weekOffset += Number(el.dataset.d); render(); },
   rango: (el) => { ui.rango = el.dataset.v; render(); },
   "seed-foods": () => seedFoods(),
+  "mp-week": (el) => { ui.mpWeek = Math.max(0, Math.min(MP.semanas.length - 1, mpIndex() + Number(el.dataset.d))); render(); },
+  "mp-check": (el) => {
+    const checks = { ...(mpState().checks || {}), [el.dataset.k]: el.checked };
+    return setDoc(ref("settings", "mealprep"), { ...mpState(), checks });
+  },
+  "mp-load": async (el) => {
+    const weeks = el.dataset.v === "all" ? MP.semanas : [MP.semanas[mpIndex()]];
+    const n = weeks.reduce((a, w) => a + w.dias.length, 0);
+    if (!confirm(`Esto reemplaza lo planificado en ${n} días (${fmtDate(weeks[0].desde, { day: "numeric", month: "short" })} – ${fmtDate(weeks.at(-1).hasta, { day: "numeric", month: "short" })}). Lo que registraste como comido no se toca. ¿Continuar?`)) return;
+    for (const w of weeks) await loadMPDays(w.dias);
+    alert("Plan cargado. Lo ves en Día, Semana y Análisis.");
+  },
+  "mp-load-day": () => { const d = mpDay(ui.day); if (d) return loadMPDays([d]); },
+  "mp-shop": async () => {
+    const w = MP.semanas[mpIndex()];
+    const names = [...new Set(w.dias.flatMap((d) => Object.values(d.comidas).flat().map((i) => i.alimento)))]
+      .flatMap((n) => (MP.recetas[n] ? Object.keys(MP.recetas[n]) : [n]))
+      .filter((n, i, a) => a.indexOf(n) === i && !/aceite/i.test(n));
+    const have = new Set(data.shopping.filter((s) => !s.done).map((s) => normalize(s.item)));
+    const nuevos = names.filter((n) => !have.has(normalize(n)));
+    if (!nuevos.length) return alert("Tu lista ya tiene todo lo de esta semana.");
+    const batch = writeBatch(db);
+    nuevos.forEach((item) => batch.set(doc(col("shopping")), { item, done: false, createdAt: serverTimestamp() }));
+    await batch.commit();
+    alert(`Agregué ${nuevos.length} productos a Compras. Tacha lo que ya tienes en casa.`);
+  },
   "copy-plan": async (el) => {
     const batch = writeBatch(db);
     itemsOf(ui.day, "plan", el.dataset.v).forEach((i) => batch.set(doc(col("intake")), {

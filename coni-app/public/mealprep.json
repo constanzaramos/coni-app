@@ -1,0 +1,3287 @@
+{
+ "titulo": "Plan 4 semanas · meal prep",
+ "fuente": "Planificación de alimentación y meal prep",
+ "semanas": [
+  {
+   "n": 1,
+   "desde": "2026-11-16",
+   "hasta": "2026-11-22",
+   "dias": [
+    {
+     "fecha": "2026-11-16",
+     "comidas": {
+      "Desayuno": [
+       {
+        "nombre": "Pan de molde integral",
+        "alimento": "Pan integral",
+        "gramos": 50
+       },
+       {
+        "nombre": "Pollo desmenuzado",
+        "alimento": "Pechuga de pollo cocida",
+        "gramos": 100
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       },
+       {
+        "nombre": "Palta",
+        "alimento": "Palta",
+        "gramos": 90
+       }
+      ],
+      "Colación AM": [
+       {
+        "nombre": "Yogur Colun Origen",
+        "alimento": "Yogur natural descremado",
+        "gramos": 120
+       },
+       {
+        "nombre": "Manzana",
+        "alimento": "Manzana",
+        "gramos": 100
+       }
+      ],
+      "Almuerzo": [
+       {
+        "nombre": "Lentejas guisadas con zanahoria, cebolla y apio",
+        "alimento": "Lentejas cocidas",
+        "gramos": 280
+       },
+       {
+        "nombre": "Repollo",
+        "alimento": "Repollo",
+        "gramos": 50
+       },
+       {
+        "nombre": "Zanahoria rallada",
+        "alimento": "Zanahoria cruda",
+        "gramos": 128
+       },
+       {
+        "nombre": "Aceite",
+        "alimento": "Aceite de oliva",
+        "gramos": 5
+       }
+      ],
+      "Once": [
+       {
+        "nombre": "Pan de molde integral",
+        "alimento": "Pan integral",
+        "gramos": 50
+       },
+       {
+        "nombre": "Atún al agua",
+        "alimento": "Atún en agua",
+        "gramos": 104
+       },
+       {
+        "nombre": "Lechuga",
+        "alimento": "Lechuga",
+        "gramos": 50
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       },
+       {
+        "nombre": "Leche descremada",
+        "alimento": "Leche descremada",
+        "gramos": 200
+       }
+      ]
+     },
+     "nota": "De la prep del domingo: lentejas y pollo. Al momento: armar"
+    },
+    {
+     "fecha": "2026-11-17",
+     "comidas": {
+      "Desayuno": [
+       {
+        "nombre": "Panqueques salados de avena y espinaca",
+        "alimento": "Panqueques de avena y espinaca",
+        "gramos": 170
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       }
+      ],
+      "Colación AM": [
+       {
+        "nombre": "Yogur Colun Origen",
+        "alimento": "Yogur natural descremado",
+        "gramos": 120
+       },
+       {
+        "nombre": "Mandarinas",
+        "alimento": "Mandarina",
+        "gramos": 150
+       }
+      ],
+      "Almuerzo": [
+       {
+        "nombre": "Pastel de choclo de pollo",
+        "alimento": "Pastel de choclo de pollo",
+        "gramos": 290
+       },
+       {
+        "nombre": "Cebolla en el pino",
+        "alimento": "Cebolla",
+        "gramos": 60
+       },
+       {
+        "nombre": "Lechuga",
+        "alimento": "Lechuga",
+        "gramos": 50
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       }
+      ],
+      "Once": [
+       {
+        "nombre": "Pan de molde integral",
+        "alimento": "Pan integral",
+        "gramos": 50
+       },
+       {
+        "nombre": "Pollo desmenuzado",
+        "alimento": "Pechuga de pollo cocida",
+        "gramos": 100
+       },
+       {
+        "nombre": "Palta",
+        "alimento": "Palta",
+        "gramos": 90
+       },
+       {
+        "nombre": "Lechuga",
+        "alimento": "Lechuga",
+        "gramos": 50
+       },
+       {
+        "nombre": "Leche descremada",
+        "alimento": "Leche descremada",
+        "gramos": 200
+       }
+      ]
+     },
+     "nota": "De la prep del domingo: pastel de choclo, panqueques y pollo. Al momento: calentar"
+    },
+    {
+     "fecha": "2026-11-18",
+     "comidas": {
+      "Desayuno": [
+       {
+        "nombre": "Pan de molde integral",
+        "alimento": "Pan integral",
+        "gramos": 50
+       },
+       {
+        "nombre": "Atún al agua",
+        "alimento": "Atún en agua",
+        "gramos": 104
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       },
+       {
+        "nombre": "Lechuga",
+        "alimento": "Lechuga",
+        "gramos": 50
+       }
+      ],
+      "Colación AM": [
+       {
+        "nombre": "Yogur Colun Origen",
+        "alimento": "Yogur natural descremado",
+        "gramos": 120
+       },
+       {
+        "nombre": "Pera",
+        "alimento": "Pera",
+        "gramos": 100
+       }
+      ],
+      "Almuerzo": [
+       {
+        "nombre": "Frittata de espinaca y cebolla al horno",
+        "alimento": "Frittata de espinaca y cebolla",
+        "gramos": 190
+       },
+       {
+        "nombre": "Arroz cocido",
+        "alimento": "Arroz blanco cocido",
+        "gramos": 100
+       },
+       {
+        "nombre": "Zanahoria rallada",
+        "alimento": "Zanahoria cruda",
+        "gramos": 128
+       },
+       {
+        "nombre": "Apio",
+        "alimento": "Apio",
+        "gramos": 70
+       }
+      ],
+      "Once": [
+       {
+        "nombre": "Pan de molde integral",
+        "alimento": "Pan integral",
+        "gramos": 50
+       },
+       {
+        "nombre": "Pollo desmenuzado",
+        "alimento": "Pechuga de pollo cocida",
+        "gramos": 100
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       },
+       {
+        "nombre": "Lechuga",
+        "alimento": "Lechuga",
+        "gramos": 50
+       },
+       {
+        "nombre": "Quesillo",
+        "alimento": "Quesillo",
+        "gramos": 60
+       }
+      ]
+     },
+     "nota": "De la prep del domingo: frittata, arroz y pollo. Hoy toca la 2ª sesión de prep"
+    },
+    {
+     "fecha": "2026-11-19",
+     "comidas": {
+      "Desayuno": [
+       {
+        "nombre": "Panqueques salados de avena y espinaca",
+        "alimento": "Panqueques de avena y espinaca",
+        "gramos": 170
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       }
+      ],
+      "Colación AM": [
+       {
+        "nombre": "Yogur Colun Origen",
+        "alimento": "Yogur natural descremado",
+        "gramos": 120
+       },
+       {
+        "nombre": "Naranja",
+        "alimento": "Naranja",
+        "gramos": 120
+       }
+      ],
+      "Almuerzo": [
+       {
+        "nombre": "Salmón al horno",
+        "alimento": "Salmón cocido",
+        "gramos": 160
+       },
+       {
+        "nombre": "Arroz cocido",
+        "alimento": "Arroz blanco cocido",
+        "gramos": 100
+       },
+       {
+        "nombre": "Lechuga",
+        "alimento": "Lechuga",
+        "gramos": 50
+       },
+       {
+        "nombre": "Zanahoria rallada",
+        "alimento": "Zanahoria cruda",
+        "gramos": 128
+       }
+      ],
+      "Once": [
+       {
+        "nombre": "Pan de molde integral",
+        "alimento": "Pan integral",
+        "gramos": 50
+       },
+       {
+        "nombre": "Huevo duro laminado",
+        "alimento": "Huevo entero",
+        "gramos": 100
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       },
+       {
+        "nombre": "Leche descremada",
+        "alimento": "Leche descremada",
+        "gramos": 200
+       }
+      ]
+     },
+     "nota": "De la prep del miércoles: salmón, arroz, panqueques y huevos duros. Al momento: calentar"
+    },
+    {
+     "fecha": "2026-11-20",
+     "comidas": {
+      "Desayuno": [
+       {
+        "nombre": "Pan de molde integral",
+        "alimento": "Pan integral",
+        "gramos": 50
+       },
+       {
+        "nombre": "Pollo desmenuzado",
+        "alimento": "Pechuga de pollo cocida",
+        "gramos": 100
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       },
+       {
+        "nombre": "Palta",
+        "alimento": "Palta",
+        "gramos": 90
+       }
+      ],
+      "Colación AM": [
+       {
+        "nombre": "Yogur Colun Origen",
+        "alimento": "Yogur natural descremado",
+        "gramos": 120
+       },
+       {
+        "nombre": "Manzana",
+        "alimento": "Manzana",
+        "gramos": 100
+       }
+      ],
+      "Almuerzo": [
+       {
+        "nombre": "Ensalada de lentejas",
+        "alimento": "Lentejas cocidas",
+        "gramos": 280
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       },
+       {
+        "nombre": "Cebolla",
+        "alimento": "Cebolla",
+        "gramos": 60
+       },
+       {
+        "nombre": "Apio",
+        "alimento": "Apio",
+        "gramos": 70
+       },
+       {
+        "nombre": "Aceite",
+        "alimento": "Aceite de oliva",
+        "gramos": 5
+       }
+      ],
+      "Once": [
+       {
+        "nombre": "Pan de molde integral",
+        "alimento": "Pan integral",
+        "gramos": 50
+       },
+       {
+        "nombre": "Jurel al natural",
+        "alimento": "Jurel en conserva",
+        "gramos": 125
+       },
+       {
+        "nombre": "Zanahoria rallada",
+        "alimento": "Zanahoria cruda",
+        "gramos": 128
+       },
+       {
+        "nombre": "Lechuga",
+        "alimento": "Lechuga",
+        "gramos": 50
+       },
+       {
+        "nombre": "Leche descremada",
+        "alimento": "Leche descremada",
+        "gramos": 200
+       }
+      ]
+     },
+     "nota": "Lentejas que congelaste el domingo: pásalas al refri el jueves en la noche"
+    },
+    {
+     "fecha": "2026-11-21",
+     "comidas": {
+      "Desayuno": [
+       {
+        "nombre": "Pan de molde integral",
+        "alimento": "Pan integral",
+        "gramos": 50
+       },
+       {
+        "nombre": "Huevo duro laminado",
+        "alimento": "Huevo entero",
+        "gramos": 100
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       }
+      ],
+      "Colación AM": [
+       {
+        "nombre": "Yogur Colun Origen",
+        "alimento": "Yogur natural descremado",
+        "gramos": 120
+       },
+       {
+        "nombre": "Mandarinas",
+        "alimento": "Mandarina",
+        "gramos": 150
+       }
+      ],
+      "Almuerzo": [
+       {
+        "nombre": "Carne salteada con cebolla y zanahoria",
+        "alimento": "Posta de vacuno cocida",
+        "gramos": 100
+       },
+       {
+        "nombre": "Espirales integrales cocidos",
+        "alimento": "Espirales integrales cocidos",
+        "gramos": 110
+       },
+       {
+        "nombre": "Repollo",
+        "alimento": "Repollo",
+        "gramos": 50
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       }
+      ],
+      "Once": [
+       {
+        "nombre": "Pan de molde integral",
+        "alimento": "Pan integral",
+        "gramos": 50
+       },
+       {
+        "nombre": "Pollo desmenuzado",
+        "alimento": "Pechuga de pollo cocida",
+        "gramos": 100
+       },
+       {
+        "nombre": "Lechuga",
+        "alimento": "Lechuga",
+        "gramos": 50
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       },
+       {
+        "nombre": "Quesillo",
+        "alimento": "Quesillo",
+        "gramos": 60
+       }
+      ]
+     },
+     "nota": "De la prep del miércoles: carne, espirales, huevos duros y pollo. Al momento: calentar"
+    },
+    {
+     "fecha": "2026-11-22",
+     "comidas": {
+      "Desayuno": [
+       {
+        "nombre": "Pan de molde integral",
+        "alimento": "Pan integral",
+        "gramos": 50
+       },
+       {
+        "nombre": "Huevo revuelto",
+        "alimento": "Huevo entero",
+        "gramos": 100
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       }
+      ],
+      "Colación AM": [
+       {
+        "nombre": "Yogur Colun Origen",
+        "alimento": "Yogur natural descremado",
+        "gramos": 120
+       },
+       {
+        "nombre": "Pera",
+        "alimento": "Pera",
+        "gramos": 100
+       }
+      ],
+      "Almuerzo": [
+       {
+        "nombre": "Salmón al horno",
+        "alimento": "Salmón cocido",
+        "gramos": 160
+       },
+       {
+        "nombre": "Tallarines de quinoa cocidos",
+        "alimento": "Tallarines de quinoa cocidos",
+        "gramos": 110
+       },
+       {
+        "nombre": "Lechuga",
+        "alimento": "Lechuga",
+        "gramos": 50
+       },
+       {
+        "nombre": "Zanahoria rallada",
+        "alimento": "Zanahoria cruda",
+        "gramos": 128
+       }
+      ],
+      "Once": [
+       {
+        "nombre": "Pan de molde integral",
+        "alimento": "Pan integral",
+        "gramos": 50
+       },
+       {
+        "nombre": "Atún al agua",
+        "alimento": "Atún en agua",
+        "gramos": 104
+       },
+       {
+        "nombre": "Lechuga",
+        "alimento": "Lechuga",
+        "gramos": 50
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       },
+       {
+        "nombre": "Leche descremada",
+        "alimento": "Leche descremada",
+        "gramos": 200
+       }
+      ]
+     },
+     "nota": "Día de prep de la semana 2: el almuerzo y la once salen de esa sesión"
+    }
+   ],
+   "sesiones": [
+    {
+     "id": "s1-dom",
+     "dia": "Domingo",
+     "fecha": "2026-11-15",
+     "cocinar": [
+      "Pechuga de pollo al horno: 3 porciones de 100 g, desmenuzadas",
+      "Lentejas con zanahoria, cebolla y apio: 3 tazas cocidas (220 g secas). Congela 1½ taza para el viernes",
+      "Pastel de choclo de pollo: pino de pollo molido (100 g) con cebolla + pastelera de choclo (¾ taza), al horno",
+      "Panqueques salados de avena y espinaca: 1 porción (6 cdas de avena + 2 huevos)",
+      "Frittata de espinaca y cebolla: 1 porción (2 huevos)",
+      "Arroz: ¾ taza cocida (40 g crudo)",
+      "Lavar y picar: lechuga, repollo, apio y zanahoria rallada"
+     ],
+     "rinde": "Lunes, martes y miércoles, más las lentejas del viernes"
+    },
+    {
+     "id": "s1-mié",
+     "dia": "Miércoles",
+     "fecha": "2026-11-18",
+     "cocinar": [
+      "Pechuga de pollo al horno: 2 porciones de 100 g, desmenuzadas",
+      "Salmón al horno: 1 porción",
+      "Arroz: ¾ taza cocida",
+      "Panqueques salados de avena y espinaca: 1 porción",
+      "Huevos duros: 4 un",
+      "Carne salteada con cebolla y zanahoria: 1 porción",
+      "Espirales integrales: ¾ taza cocida (40 g crudos)",
+      "El jueves en la noche: pasa las lentejas del freezer al refri"
+     ],
+     "rinde": "Jueves, viernes y sábado"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "desde": "2026-11-23",
+   "hasta": "2026-11-29",
+   "dias": [
+    {
+     "fecha": "2026-11-23",
+     "comidas": {
+      "Desayuno": [
+       {
+        "nombre": "Pan de molde integral",
+        "alimento": "Pan integral",
+        "gramos": 50
+       },
+       {
+        "nombre": "Muffins de huevo con espinaca",
+        "alimento": "Muffins de huevo con espinaca",
+        "gramos": 130
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       }
+      ],
+      "Colación AM": [
+       {
+        "nombre": "Yogur batido sin azúcar",
+        "alimento": "Yogur natural descremado",
+        "gramos": 120
+       },
+       {
+        "nombre": "Frutillas",
+        "alimento": "Frutillas",
+        "gramos": 200
+       }
+      ],
+      "Almuerzo": [
+       {
+        "nombre": "Porotos negros cocidos",
+        "alimento": "Porotos negros cocidos",
+        "gramos": 200
+       },
+       {
+        "nombre": "Zapallo camote en el guiso",
+        "alimento": "Zapallo camote cocido",
+        "gramos": 70
+       },
+       {
+        "nombre": "Repollo",
+        "alimento": "Repollo",
+        "gramos": 50
+       },
+       {
+        "nombre": "Aceite",
+        "alimento": "Aceite de oliva",
+        "gramos": 5
+       }
+      ],
+      "Once": [
+       {
+        "nombre": "Pan de molde integral",
+        "alimento": "Pan integral",
+        "gramos": 50
+       },
+       {
+        "nombre": "Pollo desmenuzado",
+        "alimento": "Pechuga de pollo cocida",
+        "gramos": 100
+       },
+       {
+        "nombre": "Palta",
+        "alimento": "Palta",
+        "gramos": 90
+       },
+       {
+        "nombre": "Lechuga",
+        "alimento": "Lechuga",
+        "gramos": 50
+       },
+       {
+        "nombre": "Leche descremada",
+        "alimento": "Leche descremada",
+        "gramos": 200
+       }
+      ]
+     },
+     "nota": "De la prep del domingo: porotos, pollo y muffins. Al momento: armar"
+    },
+    {
+     "fecha": "2026-11-24",
+     "comidas": {
+      "Desayuno": [
+       {
+        "nombre": "Pan pita integral",
+        "alimento": "Pan pita integral",
+        "gramos": 60
+       },
+       {
+        "nombre": "Atún al agua",
+        "alimento": "Atún en agua",
+        "gramos": 104
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       },
+       {
+        "nombre": "Lechuga",
+        "alimento": "Lechuga",
+        "gramos": 50
+       }
+      ],
+      "Colación AM": [
+       {
+        "nombre": "Yogur batido sin azúcar",
+        "alimento": "Yogur natural descremado",
+        "gramos": 120
+       },
+       {
+        "nombre": "Cerezas",
+        "alimento": "Cerezas",
+        "gramos": 80
+       }
+      ],
+      "Almuerzo": [
+       {
+        "nombre": "Pollo salteado",
+        "alimento": "Pechuga de pollo cocida",
+        "gramos": 100
+       },
+       {
+        "nombre": "Arroz integral cocido",
+        "alimento": "Arroz integral cocido",
+        "gramos": 100
+       },
+       {
+        "nombre": "Verduras salteadas · pimentón ½ taza",
+        "alimento": "Pimentón",
+        "gramos": 60
+       },
+       {
+        "nombre": "Verduras salteadas · cebolla ¾ taza",
+        "alimento": "Cebolla",
+        "gramos": 60
+       },
+       {
+        "nombre": "Verduras salteadas · zapallo italiano 1 taza",
+        "alimento": "Zapallo italiano",
+        "gramos": 150
+       },
+       {
+        "nombre": "Aceite",
+        "alimento": "Aceite de oliva",
+        "gramos": 5
+       }
+      ],
+      "Once": [
+       {
+        "nombre": "Pan pita integral",
+        "alimento": "Pan pita integral",
+        "gramos": 60
+       },
+       {
+        "nombre": "Muffins de huevo con espinaca",
+        "alimento": "Muffins de huevo con espinaca",
+        "gramos": 130
+       },
+       {
+        "nombre": "Leche descremada",
+        "alimento": "Leche descremada",
+        "gramos": 200
+       }
+      ]
+     },
+     "nota": "De la prep del domingo: pollo, arroz, verduras salteadas y muffins. Al momento: calentar"
+    },
+    {
+     "fecha": "2026-11-25",
+     "comidas": {
+      "Desayuno": [
+       {
+        "nombre": "Pan pita integral",
+        "alimento": "Pan pita integral",
+        "gramos": 60
+       },
+       {
+        "nombre": "Pollo desmenuzado",
+        "alimento": "Pechuga de pollo cocida",
+        "gramos": 100
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       },
+       {
+        "nombre": "Palta",
+        "alimento": "Palta",
+        "gramos": 90
+       }
+      ],
+      "Colación AM": [
+       {
+        "nombre": "Yogur batido sin azúcar",
+        "alimento": "Yogur natural descremado",
+        "gramos": 120
+       },
+       {
+        "nombre": "Manzana",
+        "alimento": "Manzana",
+        "gramos": 100
+       }
+      ],
+      "Almuerzo": [
+       {
+        "nombre": "Frittata de zapallo italiano",
+        "alimento": "Frittata de zapallo italiano",
+        "gramos": 250
+       },
+       {
+        "nombre": "Papa cocida",
+        "alimento": "Papa cocida",
+        "gramos": 150
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       },
+       {
+        "nombre": "Aceite",
+        "alimento": "Aceite de oliva",
+        "gramos": 5
+       }
+      ],
+      "Once": [
+       {
+        "nombre": "Pan de molde integral",
+        "alimento": "Pan integral",
+        "gramos": 50
+       },
+       {
+        "nombre": "Atún al agua",
+        "alimento": "Atún en agua",
+        "gramos": 104
+       },
+       {
+        "nombre": "Lechuga",
+        "alimento": "Lechuga",
+        "gramos": 50
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       },
+       {
+        "nombre": "Leche descremada",
+        "alimento": "Leche descremada",
+        "gramos": 200
+       }
+      ]
+     },
+     "nota": "De la prep del domingo: frittata, papa y pollo. Hoy toca la 2ª sesión de prep"
+    },
+    {
+     "fecha": "2026-11-26",
+     "comidas": {
+      "Desayuno": [
+       {
+        "nombre": "Pan de molde integral",
+        "alimento": "Pan integral",
+        "gramos": 50
+       },
+       {
+        "nombre": "Huevo duro laminado",
+        "alimento": "Huevo entero",
+        "gramos": 100
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       }
+      ],
+      "Colación AM": [
+       {
+        "nombre": "Yogur batido sin azúcar",
+        "alimento": "Yogur natural descremado",
+        "gramos": 120
+       },
+       {
+        "nombre": "Durazno",
+        "alimento": "Durazno",
+        "gramos": 130
+       }
+      ],
+      "Almuerzo": [
+       {
+        "nombre": "Merluza al horno",
+        "alimento": "Merluza cocida",
+        "gramos": 160
+       },
+       {
+        "nombre": "Arroz integral cocido",
+        "alimento": "Arroz integral cocido",
+        "gramos": 100
+       },
+       {
+        "nombre": "Lechuga",
+        "alimento": "Lechuga",
+        "gramos": 50
+       },
+       {
+        "nombre": "Pepino",
+        "alimento": "Pepino",
+        "gramos": 100
+       }
+      ],
+      "Once": [
+       {
+        "nombre": "Tortillas integrales M",
+        "alimento": "Tortilla integral",
+        "gramos": 70
+       },
+       {
+        "nombre": "Pollo en tiras",
+        "alimento": "Pechuga de pollo cocida",
+        "gramos": 100
+       },
+       {
+        "nombre": "Verduras salteadas · pimentón ½ taza",
+        "alimento": "Pimentón",
+        "gramos": 60
+       },
+       {
+        "nombre": "Verduras salteadas · zapallo italiano 1 taza",
+        "alimento": "Zapallo italiano",
+        "gramos": 150
+       },
+       {
+        "nombre": "Leche descremada",
+        "alimento": "Leche descremada",
+        "gramos": 200
+       }
+      ]
+     },
+     "nota": "De la prep del miércoles: merluza, arroz, huevos duros, pollo y verduras salteadas. Al momento: calentar"
+    },
+    {
+     "fecha": "2026-11-27",
+     "comidas": {
+      "Desayuno": [
+       {
+        "nombre": "Pan pita integral",
+        "alimento": "Pan pita integral",
+        "gramos": 60
+       },
+       {
+        "nombre": "Pollo desmenuzado",
+        "alimento": "Pechuga de pollo cocida",
+        "gramos": 100
+       },
+       {
+        "nombre": "Lechuga",
+        "alimento": "Lechuga",
+        "gramos": 50
+       },
+       {
+        "nombre": "Palta",
+        "alimento": "Palta",
+        "gramos": 90
+       }
+      ],
+      "Colación AM": [
+       {
+        "nombre": "Yogur batido sin azúcar",
+        "alimento": "Yogur natural descremado",
+        "gramos": 120
+       },
+       {
+        "nombre": "Kiwi",
+        "alimento": "Kiwi",
+        "gramos": 100
+       }
+      ],
+      "Almuerzo": [
+       {
+        "nombre": "Lentejas guisadas",
+        "alimento": "Lentejas cocidas",
+        "gramos": 280
+       },
+       {
+        "nombre": "Zapallo camote en el guiso",
+        "alimento": "Zapallo camote cocido",
+        "gramos": 70
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       },
+       {
+        "nombre": "Aceite",
+        "alimento": "Aceite de oliva",
+        "gramos": 5
+       }
+      ],
+      "Once": [
+       {
+        "nombre": "Pan de molde integral",
+        "alimento": "Pan integral",
+        "gramos": 50
+       },
+       {
+        "nombre": "Muffins de huevo con pimentón",
+        "alimento": "Muffins de huevo con pimentón",
+        "gramos": 160
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       },
+       {
+        "nombre": "Leche descremada",
+        "alimento": "Leche descremada",
+        "gramos": 200
+       }
+      ]
+     },
+     "nota": "De la prep del miércoles: lentejas, pollo y muffins. Al momento: calentar"
+    },
+    {
+     "fecha": "2026-11-28",
+     "comidas": {
+      "Desayuno": [
+       {
+        "nombre": "Tortillas integrales M",
+        "alimento": "Tortilla integral",
+        "gramos": 70
+       },
+       {
+        "nombre": "Huevo duro laminado",
+        "alimento": "Huevo entero",
+        "gramos": 100
+       },
+       {
+        "nombre": "Pimentón",
+        "alimento": "Pimentón",
+        "gramos": 60
+       }
+      ],
+      "Colación AM": [
+       {
+        "nombre": "Yogur batido sin azúcar",
+        "alimento": "Yogur natural descremado",
+        "gramos": 120
+       },
+       {
+        "nombre": "Damascos",
+        "alimento": "Damascos",
+        "gramos": 120
+       }
+      ],
+      "Almuerzo": [
+       {
+        "nombre": "Posta negra al jugo",
+        "alimento": "Posta de vacuno cocida",
+        "gramos": 100
+       },
+       {
+        "nombre": "Papa cocida",
+        "alimento": "Papa cocida",
+        "gramos": 150
+       },
+       {
+        "nombre": "Lechuga",
+        "alimento": "Lechuga",
+        "gramos": 50
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       }
+      ],
+      "Once": [
+       {
+        "nombre": "Pan pita integral",
+        "alimento": "Pan pita integral",
+        "gramos": 60
+       },
+       {
+        "nombre": "Pollo desmenuzado",
+        "alimento": "Pechuga de pollo cocida",
+        "gramos": 100
+       },
+       {
+        "nombre": "Lechuga",
+        "alimento": "Lechuga",
+        "gramos": 50
+       },
+       {
+        "nombre": "Zanahoria rallada",
+        "alimento": "Zanahoria cruda",
+        "gramos": 128
+       },
+       {
+        "nombre": "Leche descremada",
+        "alimento": "Leche descremada",
+        "gramos": 200
+       }
+      ]
+     },
+     "nota": "De la prep del miércoles: posta al jugo, papa, huevos duros y pollo. Al momento: calentar"
+    },
+    {
+     "fecha": "2026-11-29",
+     "comidas": {
+      "Desayuno": [
+       {
+        "nombre": "Pan de molde integral",
+        "alimento": "Pan integral",
+        "gramos": 50
+       },
+       {
+        "nombre": "Huevo revuelto",
+        "alimento": "Huevo entero",
+        "gramos": 100
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       }
+      ],
+      "Colación AM": [
+       {
+        "nombre": "Yogur batido sin azúcar",
+        "alimento": "Yogur natural descremado",
+        "gramos": 120
+       },
+       {
+        "nombre": "Naranja",
+        "alimento": "Naranja",
+        "gramos": 120
+       }
+      ],
+      "Almuerzo": [
+       {
+        "nombre": "Tortitas de jurel al horno",
+        "alimento": "Jurel con huevo",
+        "gramos": 175
+       },
+       {
+        "nombre": "Arroz integral cocido",
+        "alimento": "Arroz integral cocido",
+        "gramos": 100
+       },
+       {
+        "nombre": "Repollo",
+        "alimento": "Repollo",
+        "gramos": 50
+       },
+       {
+        "nombre": "Zanahoria rallada",
+        "alimento": "Zanahoria cruda",
+        "gramos": 128
+       }
+      ],
+      "Once": [
+       {
+        "nombre": "Pan de molde integral",
+        "alimento": "Pan integral",
+        "gramos": 50
+       },
+       {
+        "nombre": "Pollo desmenuzado",
+        "alimento": "Pechuga de pollo cocida",
+        "gramos": 100
+       },
+       {
+        "nombre": "Lechuga",
+        "alimento": "Lechuga",
+        "gramos": 50
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       },
+       {
+        "nombre": "Leche descremada",
+        "alimento": "Leche descremada",
+        "gramos": 200
+       }
+      ]
+     },
+     "nota": "Día de prep: el almuerzo y la once salen de la sesión de hoy"
+    }
+   ],
+   "sesiones": [
+    {
+     "id": "s2-dom",
+     "dia": "Domingo",
+     "fecha": "2026-11-22",
+     "cocinar": [
+      "Pollo al horno: 3 porciones de 100 g (2 desmenuzadas, 1 salteada)",
+      "Porotos negros con zapallo camote: 1½ taza cocida (80 g secos)",
+      "Muffins de huevo con espinaca: 4 un",
+      "Frittata de zapallo italiano: 1 porción",
+      "Papa cocida: 1 un",
+      "Arroz integral: ¾ taza cocida",
+      "Verduras salteadas: pimentón, cebolla y zapallo italiano",
+      "Lavar y picar: lechuga, repollo y tomate"
+     ],
+     "rinde": "Lunes, martes y miércoles"
+    },
+    {
+     "id": "s2-mié",
+     "dia": "Miércoles",
+     "fecha": "2026-11-25",
+     "cocinar": [
+      "Pollo al horno: 3 porciones de 100 g (2 desmenuzadas, 1 en tiras)",
+      "Merluza al horno: 160 g",
+      "Lentejas guisadas con zapallo camote: 1½ taza cocida",
+      "Arroz integral: ¾ taza cocida",
+      "Posta negra al jugo: 1 porción (100 g) + 1 papa cocida",
+      "Huevos duros: 4 un",
+      "Muffins de huevo con pimentón: 2 un",
+      "Verduras salteadas: pimentón y zapallo italiano"
+     ],
+     "rinde": "Jueves, viernes y sábado"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "desde": "2026-11-30",
+   "hasta": "2026-12-06",
+   "dias": [
+    {
+     "fecha": "2026-11-30",
+     "comidas": {
+      "Desayuno": [
+       {
+        "nombre": "Pan pita integral",
+        "alimento": "Pan pita integral",
+        "gramos": 60
+       },
+       {
+        "nombre": "Pollo desmenuzado",
+        "alimento": "Pechuga de pollo cocida",
+        "gramos": 100
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       },
+       {
+        "nombre": "Palta",
+        "alimento": "Palta",
+        "gramos": 90
+       }
+      ],
+      "Colación AM": [
+       {
+        "nombre": "Yogur batido sin azúcar",
+        "alimento": "Yogur natural descremado",
+        "gramos": 120
+       },
+       {
+        "nombre": "Arándanos",
+        "alimento": "Arándanos",
+        "gramos": 100
+       }
+      ],
+      "Almuerzo": [
+       {
+        "nombre": "Ensalada de lentejas",
+        "alimento": "Lentejas cocidas",
+        "gramos": 280
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       },
+       {
+        "nombre": "Pepino",
+        "alimento": "Pepino",
+        "gramos": 100
+       },
+       {
+        "nombre": "Cebolla",
+        "alimento": "Cebolla",
+        "gramos": 60
+       },
+       {
+        "nombre": "Aceite",
+        "alimento": "Aceite de oliva",
+        "gramos": 5
+       }
+      ],
+      "Once": [
+       {
+        "nombre": "Pan de molde integral",
+        "alimento": "Pan integral",
+        "gramos": 50
+       },
+       {
+        "nombre": "Atún al agua",
+        "alimento": "Atún en agua",
+        "gramos": 104
+       },
+       {
+        "nombre": "Lechuga",
+        "alimento": "Lechuga",
+        "gramos": 50
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       },
+       {
+        "nombre": "Leche descremada",
+        "alimento": "Leche descremada",
+        "gramos": 200
+       }
+      ]
+     },
+     "nota": "De la prep del domingo: lentejas y pollo. Al momento: armar"
+    },
+    {
+     "fecha": "2026-12-01",
+     "comidas": {
+      "Desayuno": [
+       {
+        "nombre": "Pan de molde integral",
+        "alimento": "Pan integral",
+        "gramos": 50
+       },
+       {
+        "nombre": "Muffins de huevo con champiñones",
+        "alimento": "Muffins de huevo con champiñones",
+        "gramos": 170
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       }
+      ],
+      "Colación AM": [
+       {
+        "nombre": "Yogur batido sin azúcar",
+        "alimento": "Yogur natural descremado",
+        "gramos": 120
+       },
+       {
+        "nombre": "Frutillas",
+        "alimento": "Frutillas",
+        "gramos": 200
+       }
+      ],
+      "Almuerzo": [
+       {
+        "nombre": "Pollo al horno al limón",
+        "alimento": "Pechuga de pollo cocida",
+        "gramos": 100
+       },
+       {
+        "nombre": "Papa cocida",
+        "alimento": "Papa cocida",
+        "gramos": 150
+       },
+       {
+        "nombre": "Brócoli",
+        "alimento": "Brócoli cocido",
+        "gramos": 100
+       },
+       {
+        "nombre": "Zanahoria cocida",
+        "alimento": "Zanahoria cocida",
+        "gramos": 50
+       }
+      ],
+      "Once": [
+       {
+        "nombre": "Tortillas integrales M",
+        "alimento": "Tortilla integral",
+        "gramos": 70
+       },
+       {
+        "nombre": "Pollo en tiras",
+        "alimento": "Pechuga de pollo cocida",
+        "gramos": 100
+       },
+       {
+        "nombre": "Verduras salteadas · pimentón ½ taza",
+        "alimento": "Pimentón",
+        "gramos": 60
+       },
+       {
+        "nombre": "Verduras salteadas · zapallo italiano 1 taza",
+        "alimento": "Zapallo italiano",
+        "gramos": 150
+       },
+       {
+        "nombre": "Leche descremada",
+        "alimento": "Leche descremada",
+        "gramos": 200
+       }
+      ]
+     },
+     "nota": "De la prep del domingo: pollo, papa, brócoli, verduras salteadas y muffins. Al momento: calentar"
+    },
+    {
+     "fecha": "2026-12-02",
+     "comidas": {
+      "Desayuno": [
+       {
+        "nombre": "Pan pita integral",
+        "alimento": "Pan pita integral",
+        "gramos": 60
+       },
+       {
+        "nombre": "Atún al agua",
+        "alimento": "Atún en agua",
+        "gramos": 104
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       },
+       {
+        "nombre": "Lechuga",
+        "alimento": "Lechuga",
+        "gramos": 50
+       }
+      ],
+      "Colación AM": [
+       {
+        "nombre": "Yogur batido sin azúcar",
+        "alimento": "Yogur natural descremado",
+        "gramos": 120
+       },
+       {
+        "nombre": "Pera",
+        "alimento": "Pera",
+        "gramos": 100
+       }
+      ],
+      "Almuerzo": [
+       {
+        "nombre": "Frittata de espinaca",
+        "alimento": "Frittata de espinaca",
+        "gramos": 130
+       },
+       {
+        "nombre": "Arroz integral cocido",
+        "alimento": "Arroz integral cocido",
+        "gramos": 100
+       },
+       {
+        "nombre": "Zanahoria rallada",
+        "alimento": "Zanahoria cruda",
+        "gramos": 128
+       },
+       {
+        "nombre": "Aceite",
+        "alimento": "Aceite de oliva",
+        "gramos": 5
+       }
+      ],
+      "Once": [
+       {
+        "nombre": "Pan de molde integral",
+        "alimento": "Pan integral",
+        "gramos": 50
+       },
+       {
+        "nombre": "Pollo desmenuzado",
+        "alimento": "Pechuga de pollo cocida",
+        "gramos": 100
+       },
+       {
+        "nombre": "Palta",
+        "alimento": "Palta",
+        "gramos": 90
+       },
+       {
+        "nombre": "Lechuga",
+        "alimento": "Lechuga",
+        "gramos": 50
+       },
+       {
+        "nombre": "Leche descremada",
+        "alimento": "Leche descremada",
+        "gramos": 200
+       }
+      ]
+     },
+     "nota": "De la prep del domingo: frittata, arroz y pollo. Hoy toca la 2ª sesión de prep"
+    },
+    {
+     "fecha": "2026-12-03",
+     "comidas": {
+      "Desayuno": [
+       {
+        "nombre": "Pan de molde integral",
+        "alimento": "Pan integral",
+        "gramos": 50
+       },
+       {
+        "nombre": "Huevo duro laminado",
+        "alimento": "Huevo entero",
+        "gramos": 100
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       }
+      ],
+      "Colación AM": [
+       {
+        "nombre": "Yogur batido sin azúcar",
+        "alimento": "Yogur natural descremado",
+        "gramos": 120
+       },
+       {
+        "nombre": "Cerezas",
+        "alimento": "Cerezas",
+        "gramos": 80
+       }
+      ],
+      "Almuerzo": [
+       {
+        "nombre": "Merluza al horno con tomate y cebolla",
+        "alimento": "Merluza cocida",
+        "gramos": 160
+       },
+       {
+        "nombre": "Papa cocida",
+        "alimento": "Papa cocida",
+        "gramos": 150
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       },
+       {
+        "nombre": "Cebolla",
+        "alimento": "Cebolla",
+        "gramos": 60
+       },
+       {
+        "nombre": "Lechuga",
+        "alimento": "Lechuga",
+        "gramos": 50
+       }
+      ],
+      "Once": [
+       {
+        "nombre": "Pan pita integral",
+        "alimento": "Pan pita integral",
+        "gramos": 60
+       },
+       {
+        "nombre": "Muffins de huevo con espinaca",
+        "alimento": "Muffins de huevo con espinaca",
+        "gramos": 130
+       },
+       {
+        "nombre": "Leche descremada",
+        "alimento": "Leche descremada",
+        "gramos": 200
+       }
+      ]
+     },
+     "nota": "De la prep del miércoles: merluza, papa, huevos duros y muffins. Al momento: calentar"
+    },
+    {
+     "fecha": "2026-12-04",
+     "comidas": {
+      "Desayuno": [
+       {
+        "nombre": "Pan de molde integral",
+        "alimento": "Pan integral",
+        "gramos": 50
+       },
+       {
+        "nombre": "Pollo desmenuzado",
+        "alimento": "Pechuga de pollo cocida",
+        "gramos": 100
+       },
+       {
+        "nombre": "Pepino",
+        "alimento": "Pepino",
+        "gramos": 100
+       }
+      ],
+      "Colación AM": [
+       {
+        "nombre": "Yogur batido sin azúcar",
+        "alimento": "Yogur natural descremado",
+        "gramos": 120
+       },
+       {
+        "nombre": "Melón",
+        "alimento": "Melón",
+        "gramos": 180
+       }
+      ],
+      "Almuerzo": [
+       {
+        "nombre": "Garbanzos guisados con espinaca",
+        "alimento": "Garbanzos cocidos",
+        "gramos": 260
+       },
+       {
+        "nombre": "Espinaca",
+        "alimento": "Espinaca cruda",
+        "gramos": 50
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       },
+       {
+        "nombre": "Aceite",
+        "alimento": "Aceite de oliva",
+        "gramos": 5
+       }
+      ],
+      "Once": [
+       {
+        "nombre": "Pan de molde integral",
+        "alimento": "Pan integral",
+        "gramos": 50
+       },
+       {
+        "nombre": "Atún al agua",
+        "alimento": "Atún en agua",
+        "gramos": 104
+       },
+       {
+        "nombre": "Zanahoria rallada",
+        "alimento": "Zanahoria cruda",
+        "gramos": 128
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       },
+       {
+        "nombre": "Leche descremada",
+        "alimento": "Leche descremada",
+        "gramos": 200
+       }
+      ]
+     },
+     "nota": "De la prep del miércoles: garbanzos y pollo. Al momento: calentar"
+    },
+    {
+     "fecha": "2026-12-05",
+     "comidas": {
+      "Desayuno": [
+       {
+        "nombre": "Pan pita integral",
+        "alimento": "Pan pita integral",
+        "gramos": 60
+       },
+       {
+        "nombre": "Pollo desmenuzado",
+        "alimento": "Pechuga de pollo cocida",
+        "gramos": 100
+       },
+       {
+        "nombre": "Lechuga",
+        "alimento": "Lechuga",
+        "gramos": 50
+       },
+       {
+        "nombre": "Palta",
+        "alimento": "Palta",
+        "gramos": 90
+       }
+      ],
+      "Colación AM": [
+       {
+        "nombre": "Yogur batido sin azúcar",
+        "alimento": "Yogur natural descremado",
+        "gramos": 120
+       },
+       {
+        "nombre": "Damascos",
+        "alimento": "Damascos",
+        "gramos": 120
+       }
+      ],
+      "Almuerzo": [
+       {
+        "nombre": "Albóndigas de posta negra molida",
+        "alimento": "Posta de vacuno cocida",
+        "gramos": 100
+       },
+       {
+        "nombre": "Arroz integral cocido",
+        "alimento": "Arroz integral cocido",
+        "gramos": 100
+       },
+       {
+        "nombre": "Tomate para la salsa",
+        "alimento": "Tomate",
+        "gramos": 120
+       },
+       {
+        "nombre": "Pepino",
+        "alimento": "Pepino",
+        "gramos": 100
+       }
+      ],
+      "Once": [
+       {
+        "nombre": "Pan de molde integral",
+        "alimento": "Pan integral",
+        "gramos": 50
+       },
+       {
+        "nombre": "Muffins de huevo con espinaca",
+        "alimento": "Muffins de huevo con espinaca",
+        "gramos": 130
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       },
+       {
+        "nombre": "Leche descremada",
+        "alimento": "Leche descremada",
+        "gramos": 200
+       }
+      ]
+     },
+     "nota": "De la prep del miércoles: albóndigas, arroz, pollo y muffins. Al momento: calentar"
+    },
+    {
+     "fecha": "2026-12-06",
+     "comidas": {
+      "Desayuno": [
+       {
+        "nombre": "Pan de molde integral",
+        "alimento": "Pan integral",
+        "gramos": 50
+       },
+       {
+        "nombre": "Huevo duro laminado",
+        "alimento": "Huevo entero",
+        "gramos": 100
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       }
+      ],
+      "Colación AM": [
+       {
+        "nombre": "Yogur batido sin azúcar",
+        "alimento": "Yogur natural descremado",
+        "gramos": 120
+       },
+       {
+        "nombre": "Plátano",
+        "alimento": "Plátano",
+        "gramos": 60
+       }
+      ],
+      "Almuerzo": [
+       {
+        "nombre": "Jurel salteado con cebolla",
+        "alimento": "Jurel con huevo",
+        "gramos": 175
+       },
+       {
+        "nombre": "Papa cocida",
+        "alimento": "Papa cocida",
+        "gramos": 150
+       },
+       {
+        "nombre": "Cebolla",
+        "alimento": "Cebolla",
+        "gramos": 60
+       },
+       {
+        "nombre": "Lechuga",
+        "alimento": "Lechuga",
+        "gramos": 50
+       }
+      ],
+      "Once": [
+       {
+        "nombre": "Pan pita integral",
+        "alimento": "Pan pita integral",
+        "gramos": 60
+       },
+       {
+        "nombre": "Pollo desmenuzado",
+        "alimento": "Pechuga de pollo cocida",
+        "gramos": 100
+       },
+       {
+        "nombre": "Lechuga",
+        "alimento": "Lechuga",
+        "gramos": 50
+       },
+       {
+        "nombre": "Zanahoria rallada",
+        "alimento": "Zanahoria cruda",
+        "gramos": 128
+       },
+       {
+        "nombre": "Leche descremada",
+        "alimento": "Leche descremada",
+        "gramos": 200
+       }
+      ]
+     },
+     "nota": "Día de prep: el almuerzo y la once salen de la sesión de hoy"
+    }
+   ],
+   "sesiones": [
+    {
+     "id": "s3-dom",
+     "dia": "Domingo",
+     "fecha": "2026-11-29",
+     "cocinar": [
+      "Pollo al horno: 4 porciones de 100 g (2 desmenuzadas, 1 al limón, 1 en tiras)",
+      "Lentejas: 1½ taza cocida",
+      "Muffins de huevo con champiñones: 2 un",
+      "Frittata de espinaca: 1 porción",
+      "Papa cocida: 1 un",
+      "Brócoli y zanahoria cocidos: 1 taza de cada uno",
+      "Arroz integral: ¾ taza cocida",
+      "Verduras salteadas: pimentón y zapallo italiano"
+     ],
+     "rinde": "Lunes, martes y miércoles"
+    },
+    {
+     "id": "s3-mié",
+     "dia": "Miércoles",
+     "fecha": "2026-12-02",
+     "cocinar": [
+      "Pollo al horno: 2 porciones de 100 g (desmenuzadas)",
+      "Merluza al horno con tomate y cebolla: 160 g + 1 papa cocida",
+      "Garbanzos con espinaca: 1½ taza cocida",
+      "Albóndigas de posta negra molida en salsa de tomate: 1 porción (100 g)",
+      "Arroz integral: ¾ taza cocida",
+      "Huevos duros: 5 un",
+      "Muffins de huevo con espinaca: 4 un"
+     ],
+     "rinde": "Jueves, viernes, sábado y desayuno del domingo"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "desde": "2026-12-07",
+   "hasta": "2026-12-13",
+   "dias": [
+    {
+     "fecha": "2026-12-07",
+     "comidas": {
+      "Desayuno": [
+       {
+        "nombre": "Tortillas integrales M",
+        "alimento": "Tortilla integral",
+        "gramos": 70
+       },
+       {
+        "nombre": "Muffins de huevo con pimentón",
+        "alimento": "Muffins de huevo con pimentón",
+        "gramos": 160
+       }
+      ],
+      "Colación AM": [
+       {
+        "nombre": "Yogur batido sin azúcar",
+        "alimento": "Yogur natural descremado",
+        "gramos": 120
+       },
+       {
+        "nombre": "Sandía",
+        "alimento": "Sandía",
+        "gramos": 200
+       }
+      ],
+      "Almuerzo": [
+       {
+        "nombre": "Porotos con zapallo",
+        "alimento": "Porotos negros cocidos",
+        "gramos": 200
+       },
+       {
+        "nombre": "Zapallo camote en el guiso",
+        "alimento": "Zapallo camote cocido",
+        "gramos": 70
+       },
+       {
+        "nombre": "Cebolla",
+        "alimento": "Cebolla",
+        "gramos": 60
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       },
+       {
+        "nombre": "Aceite",
+        "alimento": "Aceite de oliva",
+        "gramos": 5
+       }
+      ],
+      "Once": [
+       {
+        "nombre": "Pan pita integral",
+        "alimento": "Pan pita integral",
+        "gramos": 60
+       },
+       {
+        "nombre": "Pollo desmenuzado",
+        "alimento": "Pechuga de pollo cocida",
+        "gramos": 100
+       },
+       {
+        "nombre": "Lechuga",
+        "alimento": "Lechuga",
+        "gramos": 50
+       },
+       {
+        "nombre": "Zanahoria rallada",
+        "alimento": "Zanahoria cruda",
+        "gramos": 128
+       },
+       {
+        "nombre": "Leche descremada",
+        "alimento": "Leche descremada",
+        "gramos": 200
+       }
+      ]
+     },
+     "nota": "De la prep del domingo: porotos, pollo y muffins. Al momento: armar"
+    },
+    {
+     "fecha": "2026-12-08",
+     "comidas": {
+      "Desayuno": [
+       {
+        "nombre": "Pan pita integral",
+        "alimento": "Pan pita integral",
+        "gramos": 60
+       },
+       {
+        "nombre": "Pollo desmenuzado",
+        "alimento": "Pechuga de pollo cocida",
+        "gramos": 100
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       },
+       {
+        "nombre": "Palta",
+        "alimento": "Palta",
+        "gramos": 90
+       }
+      ],
+      "Colación AM": [
+       {
+        "nombre": "Yogur batido sin azúcar",
+        "alimento": "Yogur natural descremado",
+        "gramos": 120
+       },
+       {
+        "nombre": "Cerezas",
+        "alimento": "Cerezas",
+        "gramos": 80
+       }
+      ],
+      "Almuerzo": [
+       {
+        "nombre": "Pollo al horno",
+        "alimento": "Pechuga de pollo cocida",
+        "gramos": 100
+       },
+       {
+        "nombre": "Puré · 1 papa",
+        "alimento": "Papa cocida",
+        "gramos": 150
+       },
+       {
+        "nombre": "Puré · zapallo camote ½ taza",
+        "alimento": "Zapallo camote cocido",
+        "gramos": 70
+       },
+       {
+        "nombre": "Repollo",
+        "alimento": "Repollo",
+        "gramos": 50
+       },
+       {
+        "nombre": "Zanahoria rallada",
+        "alimento": "Zanahoria cruda",
+        "gramos": 128
+       }
+      ],
+      "Once": [
+       {
+        "nombre": "Pan de molde integral",
+        "alimento": "Pan integral",
+        "gramos": 50
+       },
+       {
+        "nombre": "Atún al agua",
+        "alimento": "Atún en agua",
+        "gramos": 104
+       },
+       {
+        "nombre": "Lechuga",
+        "alimento": "Lechuga",
+        "gramos": 50
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       },
+       {
+        "nombre": "Leche descremada",
+        "alimento": "Leche descremada",
+        "gramos": 200
+       }
+      ]
+     },
+     "nota": "De la prep del domingo: pollo y puré. Al momento: calentar"
+    },
+    {
+     "fecha": "2026-12-09",
+     "comidas": {
+      "Desayuno": [
+       {
+        "nombre": "Pan de molde integral",
+        "alimento": "Pan integral",
+        "gramos": 50
+       },
+       {
+        "nombre": "Pollo desmenuzado",
+        "alimento": "Pechuga de pollo cocida",
+        "gramos": 100
+       },
+       {
+        "nombre": "Pepino",
+        "alimento": "Pepino",
+        "gramos": 100
+       }
+      ],
+      "Colación AM": [
+       {
+        "nombre": "Yogur batido sin azúcar",
+        "alimento": "Yogur natural descremado",
+        "gramos": 120
+       },
+       {
+        "nombre": "Durazno",
+        "alimento": "Durazno",
+        "gramos": 130
+       }
+      ],
+      "Almuerzo": [
+       {
+        "nombre": "Frittata de pimentón y tomate",
+        "alimento": "Frittata de pimentón y tomate",
+        "gramos": 280
+       },
+       {
+        "nombre": "Pan de molde integral",
+        "alimento": "Pan integral",
+        "gramos": 50
+       },
+       {
+        "nombre": "Lechuga",
+        "alimento": "Lechuga",
+        "gramos": 50
+       }
+      ],
+      "Once": [
+       {
+        "nombre": "Tortillas integrales M",
+        "alimento": "Tortilla integral",
+        "gramos": 70
+       },
+       {
+        "nombre": "Pollo en tiras",
+        "alimento": "Pechuga de pollo cocida",
+        "gramos": 100
+       },
+       {
+        "nombre": "Verduras salteadas · pimentón ½ taza",
+        "alimento": "Pimentón",
+        "gramos": 60
+       },
+       {
+        "nombre": "Verduras salteadas · zapallo italiano 1 taza",
+        "alimento": "Zapallo italiano",
+        "gramos": 150
+       },
+       {
+        "nombre": "Leche descremada",
+        "alimento": "Leche descremada",
+        "gramos": 200
+       }
+      ]
+     },
+     "nota": "De la prep del domingo: frittata, pollo y verduras salteadas. Hoy toca la 2ª sesión de prep"
+    },
+    {
+     "fecha": "2026-12-10",
+     "comidas": {
+      "Desayuno": [
+       {
+        "nombre": "Pan pita integral",
+        "alimento": "Pan pita integral",
+        "gramos": 60
+       },
+       {
+        "nombre": "Atún al agua",
+        "alimento": "Atún en agua",
+        "gramos": 104
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       },
+       {
+        "nombre": "Lechuga",
+        "alimento": "Lechuga",
+        "gramos": 50
+       }
+      ],
+      "Colación AM": [
+       {
+        "nombre": "Yogur batido sin azúcar",
+        "alimento": "Yogur natural descremado",
+        "gramos": 120
+       },
+       {
+        "nombre": "Frutillas",
+        "alimento": "Frutillas",
+        "gramos": 200
+       }
+      ],
+      "Almuerzo": [
+       {
+        "nombre": "Merluza al horno",
+        "alimento": "Merluza cocida",
+        "gramos": 160
+       },
+       {
+        "nombre": "Arroz integral cocido",
+        "alimento": "Arroz integral cocido",
+        "gramos": 100
+       },
+       {
+        "nombre": "Betarraga cocida",
+        "alimento": "Betarraga cocida",
+        "gramos": 90
+       },
+       {
+        "nombre": "Lechuga",
+        "alimento": "Lechuga",
+        "gramos": 50
+       }
+      ],
+      "Once": [
+       {
+        "nombre": "Pan de molde integral",
+        "alimento": "Pan integral",
+        "gramos": 50
+       },
+       {
+        "nombre": "Pollo desmenuzado",
+        "alimento": "Pechuga de pollo cocida",
+        "gramos": 100
+       },
+       {
+        "nombre": "Palta",
+        "alimento": "Palta",
+        "gramos": 90
+       },
+       {
+        "nombre": "Lechuga",
+        "alimento": "Lechuga",
+        "gramos": 50
+       },
+       {
+        "nombre": "Leche descremada",
+        "alimento": "Leche descremada",
+        "gramos": 200
+       }
+      ]
+     },
+     "nota": "De la prep del miércoles: merluza, arroz, betarraga y pollo. Al momento: calentar"
+    },
+    {
+     "fecha": "2026-12-11",
+     "comidas": {
+      "Desayuno": [
+       {
+        "nombre": "Pan de molde integral",
+        "alimento": "Pan integral",
+        "gramos": 50
+       },
+       {
+        "nombre": "Muffins de huevo con champiñones",
+        "alimento": "Muffins de huevo con champiñones",
+        "gramos": 170
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       }
+      ],
+      "Colación AM": [
+       {
+        "nombre": "Yogur batido sin azúcar",
+        "alimento": "Yogur natural descremado",
+        "gramos": 120
+       },
+       {
+        "nombre": "Kiwi",
+        "alimento": "Kiwi",
+        "gramos": 100
+       }
+      ],
+      "Almuerzo": [
+       {
+        "nombre": "Ensalada tibia de garbanzos",
+        "alimento": "Garbanzos cocidos",
+        "gramos": 260
+       },
+       {
+        "nombre": "Verduras salteadas · zapallo italiano 1 taza",
+        "alimento": "Zapallo italiano",
+        "gramos": 150
+       },
+       {
+        "nombre": "Verduras salteadas · pimentón ½ taza",
+        "alimento": "Pimentón",
+        "gramos": 60
+       },
+       {
+        "nombre": "Aceite",
+        "alimento": "Aceite de oliva",
+        "gramos": 5
+       }
+      ],
+      "Once": [
+       {
+        "nombre": "Pan pita integral",
+        "alimento": "Pan pita integral",
+        "gramos": 60
+       },
+       {
+        "nombre": "Huevo duro laminado",
+        "alimento": "Huevo entero",
+        "gramos": 100
+       },
+       {
+        "nombre": "Espinaca",
+        "alimento": "Espinaca cruda",
+        "gramos": 50
+       },
+       {
+        "nombre": "Leche descremada",
+        "alimento": "Leche descremada",
+        "gramos": 200
+       }
+      ]
+     },
+     "nota": "De la prep del miércoles: garbanzos, verduras salteadas, muffins y huevos duros"
+    },
+    {
+     "fecha": "2026-12-12",
+     "comidas": {
+      "Desayuno": [
+       {
+        "nombre": "Pan de molde integral",
+        "alimento": "Pan integral",
+        "gramos": 50
+       },
+       {
+        "nombre": "Muffins de huevo con espinaca",
+        "alimento": "Muffins de huevo con espinaca",
+        "gramos": 130
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       }
+      ],
+      "Colación AM": [
+       {
+        "nombre": "Yogur batido sin azúcar",
+        "alimento": "Yogur natural descremado",
+        "gramos": 120
+       },
+       {
+        "nombre": "Manzana",
+        "alimento": "Manzana",
+        "gramos": 100
+       }
+      ],
+      "Almuerzo": [
+       {
+        "nombre": "Pulpa de cerdo salteada",
+        "alimento": "Pulpa de cerdo cocida",
+        "gramos": 100
+       },
+       {
+        "nombre": "Arroz integral cocido",
+        "alimento": "Arroz integral cocido",
+        "gramos": 100
+       },
+       {
+        "nombre": "Verduras salteadas · pimentón ½ taza",
+        "alimento": "Pimentón",
+        "gramos": 60
+       },
+       {
+        "nombre": "Verduras salteadas · cebolla ¾ taza",
+        "alimento": "Cebolla",
+        "gramos": 60
+       },
+       {
+        "nombre": "Verduras salteadas · zapallo italiano 1 taza",
+        "alimento": "Zapallo italiano",
+        "gramos": 150
+       }
+      ],
+      "Once": [
+       {
+        "nombre": "Pan de molde integral",
+        "alimento": "Pan integral",
+        "gramos": 50
+       },
+       {
+        "nombre": "Atún al agua",
+        "alimento": "Atún en agua",
+        "gramos": 104
+       },
+       {
+        "nombre": "Zanahoria rallada",
+        "alimento": "Zanahoria cruda",
+        "gramos": 128
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       },
+       {
+        "nombre": "Leche descremada",
+        "alimento": "Leche descremada",
+        "gramos": 200
+       }
+      ]
+     },
+     "nota": "De la prep del miércoles: cerdo salteado, arroz y muffins. Al momento: calentar"
+    },
+    {
+     "fecha": "2026-12-13",
+     "comidas": {
+      "Desayuno": [
+       {
+        "nombre": "Pan de molde integral",
+        "alimento": "Pan integral",
+        "gramos": 50
+       },
+       {
+        "nombre": "Huevo revuelto",
+        "alimento": "Huevo entero",
+        "gramos": 100
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       }
+      ],
+      "Colación AM": [
+       {
+        "nombre": "Yogur batido sin azúcar",
+        "alimento": "Yogur natural descremado",
+        "gramos": 120
+       },
+       {
+        "nombre": "Melón",
+        "alimento": "Melón",
+        "gramos": 180
+       }
+      ],
+      "Almuerzo": [
+       {
+        "nombre": "Ensalada de atún y huevo",
+        "alimento": "Atún con huevo",
+        "gramos": 154
+       },
+       {
+        "nombre": "Papa cocida",
+        "alimento": "Papa cocida",
+        "gramos": 150
+       },
+       {
+        "nombre": "Tomate",
+        "alimento": "Tomate",
+        "gramos": 120
+       },
+       {
+        "nombre": "Lechuga",
+        "alimento": "Lechuga",
+        "gramos": 50
+       }
+      ],
+      "Once": [
+       {
+        "nombre": "Pan pita integral",
+        "alimento": "Pan pita integral",
+        "gramos": 60
+       },
+       {
+        "nombre": "Pollo desmenuzado",
+        "alimento": "Pechuga de pollo cocida",
+        "gramos": 100
+       },
+       {
+        "nombre": "Lechuga",
+        "alimento": "Lechuga",
+        "gramos": 50
+       },
+       {
+        "nombre": "Palta",
+        "alimento": "Palta",
+        "gramos": 90
+       },
+       {
+        "nombre": "Leche descremada",
+        "alimento": "Leche descremada",
+        "gramos": 200
+       }
+      ]
+     },
+     "nota": "Día de prep: el almuerzo y la once salen de la sesión de hoy"
+    }
+   ],
+   "sesiones": [
+    {
+     "id": "s4-dom",
+     "dia": "Domingo",
+     "fecha": "2026-12-06",
+     "cocinar": [
+      "Pollo al horno: 5 porciones de 100 g (4 desmenuzadas o al horno, 1 en tiras)",
+      "Porotos con zapallo camote: 1½ taza cocida",
+      "Muffins de huevo con pimentón: 2 un",
+      "Frittata de pimentón y tomate: 1 porción",
+      "Puré de papa y zapallo camote: 1 porción",
+      "Verduras salteadas: pimentón y zapallo italiano"
+     ],
+     "rinde": "Lunes, martes y miércoles"
+    },
+    {
+     "id": "s4-mié",
+     "dia": "Miércoles",
+     "fecha": "2026-12-09",
+     "cocinar": [
+      "Pollo al horno: 1 porción de 100 g (desmenuzada)",
+      "Merluza al horno: 160 g",
+      "Arroz integral: 1½ taza cocida (2 porciones)",
+      "Betarraga cocida: ½ taza",
+      "Garbanzos: 1½ taza cocida",
+      "Cerdo salteado con verduras: 1 porción (100 g)",
+      "Muffins de huevo: 2 con champiñones y 2 con espinaca",
+      "Huevos duros: 2 un",
+      "Verduras salteadas: pimentón, cebolla y zapallo italiano"
+     ],
+     "rinde": "Jueves, viernes y sábado"
+    }
+   ]
+  }
+ ],
+ "alimentos": [
+  {
+   "nombre": "Aceite de oliva",
+   "kcal": 884.0,
+   "prot": 0.0,
+   "cho": 0.0,
+   "lip": 100.0,
+   "fibra": 0.0,
+   "sodio": 2.0,
+   "calcio": 1.0,
+   "hierro": 0.6
+  },
+  {
+   "nombre": "Apio",
+   "kcal": 16,
+   "prot": 0.7,
+   "cho": 3.0,
+   "lip": 0.2,
+   "fibra": 1.6,
+   "sodio": 80,
+   "calcio": 40,
+   "hierro": 0.2
+  },
+  {
+   "nombre": "Arroz blanco cocido",
+   "kcal": 130.0,
+   "prot": 2.7,
+   "cho": 28.2,
+   "lip": 0.3,
+   "fibra": 0.4,
+   "sodio": 1.0,
+   "calcio": 10.0,
+   "hierro": 0.2
+  },
+  {
+   "nombre": "Arroz integral cocido",
+   "kcal": 123,
+   "prot": 2.7,
+   "cho": 25.6,
+   "lip": 1.0,
+   "fibra": 1.6,
+   "sodio": 4,
+   "calcio": 3,
+   "hierro": 0.6
+  },
+  {
+   "nombre": "Arándanos",
+   "kcal": 57,
+   "prot": 0.7,
+   "cho": 14.5,
+   "lip": 0.3,
+   "fibra": 2.4,
+   "sodio": 1,
+   "calcio": 6,
+   "hierro": 0.3
+  },
+  {
+   "nombre": "Atún con huevo",
+   "kcal": 124.77,
+   "prot": 21.31,
+   "cho": 0.23,
+   "lip": 3.62,
+   "fibra": 0.0,
+   "sodio": 274.36,
+   "calcio": 25.61,
+   "hierro": 1.6
+  },
+  {
+   "nombre": "Atún en agua",
+   "kcal": 116.0,
+   "prot": 25.5,
+   "cho": 0.0,
+   "lip": 0.8,
+   "fibra": 0.0,
+   "sodio": 338.0,
+   "calcio": 11.0,
+   "hierro": 1.5
+  },
+  {
+   "nombre": "Betarraga cocida",
+   "kcal": 44,
+   "prot": 1.7,
+   "cho": 10.0,
+   "lip": 0.2,
+   "fibra": 2.0,
+   "sodio": 77,
+   "calcio": 16,
+   "hierro": 0.8
+  },
+  {
+   "nombre": "Brócoli cocido",
+   "kcal": 35.0,
+   "prot": 2.4,
+   "cho": 7.2,
+   "lip": 0.4,
+   "fibra": 3.3,
+   "sodio": 41.0,
+   "calcio": 40.0,
+   "hierro": 0.7
+  },
+  {
+   "nombre": "Cebolla",
+   "kcal": 40,
+   "prot": 1.1,
+   "cho": 9.3,
+   "lip": 0.1,
+   "fibra": 1.7,
+   "sodio": 4,
+   "calcio": 23,
+   "hierro": 0.2
+  },
+  {
+   "nombre": "Cerezas",
+   "kcal": 63,
+   "prot": 1.1,
+   "cho": 16.0,
+   "lip": 0.2,
+   "fibra": 2.1,
+   "sodio": 0,
+   "calcio": 13,
+   "hierro": 0.4
+  },
+  {
+   "nombre": "Damascos",
+   "kcal": 48,
+   "prot": 1.4,
+   "cho": 11.1,
+   "lip": 0.4,
+   "fibra": 2.0,
+   "sodio": 1,
+   "calcio": 13,
+   "hierro": 0.4
+  },
+  {
+   "nombre": "Durazno",
+   "kcal": 39,
+   "prot": 0.9,
+   "cho": 9.5,
+   "lip": 0.3,
+   "fibra": 1.5,
+   "sodio": 0,
+   "calcio": 6,
+   "hierro": 0.3
+  },
+  {
+   "nombre": "Espinaca cruda",
+   "kcal": 23.0,
+   "prot": 2.9,
+   "cho": 3.6,
+   "lip": 0.4,
+   "fibra": 2.2,
+   "sodio": 79.0,
+   "calcio": 99.0,
+   "hierro": 2.7
+  },
+  {
+   "nombre": "Espirales integrales cocidos",
+   "kcal": 149,
+   "prot": 6.0,
+   "cho": 30.0,
+   "lip": 1.7,
+   "fibra": 3.9,
+   "sodio": 4,
+   "calcio": 15,
+   "hierro": 1.7
+  },
+  {
+   "nombre": "Frittata de espinaca",
+   "kcal": 115.31,
+   "prot": 10.36,
+   "cho": 1.37,
+   "lip": 7.4,
+   "fibra": 0.51,
+   "sodio": 127.46,
+   "calcio": 65.92,
+   "hierro": 2.01
+  },
+  {
+   "nombre": "Frittata de espinaca y cebolla",
+   "kcal": 91.53,
+   "prot": 7.44,
+   "cho": 3.87,
+   "lip": 5.09,
+   "fibra": 0.88,
+   "sodio": 88.47,
+   "calcio": 52.37,
+   "hierro": 1.44
+  },
+  {
+   "nombre": "Frittata de pimentón y tomate",
+   "kcal": 65.43,
+   "prot": 5.1,
+   "cho": 3.21,
+   "lip": 3.54,
+   "fibra": 0.96,
+   "sodio": 53.71,
+   "calcio": 25.79,
+   "hierro": 0.86
+  },
+  {
+   "nombre": "Frittata de zapallo italiano",
+   "kcal": 67.4,
+   "prot": 5.76,
+   "cho": 2.14,
+   "lip": 3.98,
+   "fibra": 0.6,
+   "sodio": 61.6,
+   "calcio": 32.0,
+   "hierro": 0.96
+  },
+  {
+   "nombre": "Frutillas",
+   "kcal": 32.0,
+   "prot": 0.7,
+   "cho": 7.7,
+   "lip": 0.3,
+   "fibra": 2.0,
+   "sodio": 1.0,
+   "calcio": 16.0,
+   "hierro": 0.4
+  },
+  {
+   "nombre": "Garbanzos cocidos",
+   "kcal": 164.0,
+   "prot": 8.9,
+   "cho": 27.4,
+   "lip": 2.6,
+   "fibra": 7.6,
+   "sodio": 7.0,
+   "calcio": 49.0,
+   "hierro": 2.9
+  },
+  {
+   "nombre": "Huevo entero",
+   "kcal": 143.0,
+   "prot": 12.6,
+   "cho": 0.7,
+   "lip": 9.5,
+   "fibra": 0.0,
+   "sodio": 142.0,
+   "calcio": 56.0,
+   "hierro": 1.8
+  },
+  {
+   "nombre": "Jurel con huevo",
+   "kcal": 152.29,
+   "prot": 20.17,
+   "cho": 0.2,
+   "lip": 7.21,
+   "fibra": 0.0,
+   "sodio": 311.29,
+   "calcio": 188.14,
+   "hierro": 1.94
+  },
+  {
+   "nombre": "Jurel en conserva",
+   "kcal": 156,
+   "prot": 23.2,
+   "cho": 0,
+   "lip": 6.3,
+   "fibra": 0,
+   "sodio": 379,
+   "calcio": 241,
+   "hierro": 2.0
+  },
+  {
+   "nombre": "Kiwi",
+   "kcal": 61,
+   "prot": 1.1,
+   "cho": 14.7,
+   "lip": 0.5,
+   "fibra": 3.0,
+   "sodio": 3,
+   "calcio": 34,
+   "hierro": 0.3
+  },
+  {
+   "nombre": "Leche descremada",
+   "kcal": 34,
+   "prot": 3.4,
+   "cho": 5.0,
+   "lip": 0.1,
+   "fibra": 0,
+   "sodio": 42,
+   "calcio": 122,
+   "hierro": 0
+  },
+  {
+   "nombre": "Lechuga",
+   "kcal": 15.0,
+   "prot": 1.4,
+   "cho": 2.9,
+   "lip": 0.2,
+   "fibra": 1.3,
+   "sodio": 28.0,
+   "calcio": 36.0,
+   "hierro": 0.9
+  },
+  {
+   "nombre": "Lentejas cocidas",
+   "kcal": 116.0,
+   "prot": 9.0,
+   "cho": 20.1,
+   "lip": 0.4,
+   "fibra": 7.9,
+   "sodio": 2.0,
+   "calcio": 19.0,
+   "hierro": 3.3
+  },
+  {
+   "nombre": "Mandarina",
+   "kcal": 53,
+   "prot": 0.8,
+   "cho": 13.3,
+   "lip": 0.3,
+   "fibra": 1.8,
+   "sodio": 2,
+   "calcio": 37,
+   "hierro": 0.2
+  },
+  {
+   "nombre": "Manzana",
+   "kcal": 52.0,
+   "prot": 0.3,
+   "cho": 13.8,
+   "lip": 0.2,
+   "fibra": 2.4,
+   "sodio": 1.0,
+   "calcio": 6.0,
+   "hierro": 0.1
+  },
+  {
+   "nombre": "Melón",
+   "kcal": 34,
+   "prot": 0.8,
+   "cho": 8.2,
+   "lip": 0.2,
+   "fibra": 0.9,
+   "sodio": 16,
+   "calcio": 9,
+   "hierro": 0.2
+  },
+  {
+   "nombre": "Merluza cocida",
+   "kcal": 105,
+   "prot": 22.0,
+   "cho": 0,
+   "lip": 1.5,
+   "fibra": 0,
+   "sodio": 110,
+   "calcio": 40,
+   "hierro": 0.5
+  },
+  {
+   "nombre": "Muffins de huevo con champiñones",
+   "kcal": 93.18,
+   "prot": 8.69,
+   "cho": 1.77,
+   "lip": 5.71,
+   "fibra": 0.41,
+   "sodio": 85.59,
+   "calcio": 34.18,
+   "hierro": 1.26
+  },
+  {
+   "nombre": "Muffins de huevo con espinaca",
+   "kcal": 115.31,
+   "prot": 10.36,
+   "cho": 1.37,
+   "lip": 7.4,
+   "fibra": 0.51,
+   "sodio": 127.46,
+   "calcio": 65.92,
+   "hierro": 2.01
+  },
+  {
+   "nombre": "Muffins de huevo con pimentón",
+   "kcal": 101.0,
+   "prot": 8.25,
+   "cho": 2.69,
+   "lip": 6.05,
+   "fibra": 0.79,
+   "sodio": 90.25,
+   "calcio": 37.62,
+   "hierro": 1.27
+  },
+  {
+   "nombre": "Naranja",
+   "kcal": 47.0,
+   "prot": 0.9,
+   "cho": 11.8,
+   "lip": 0.1,
+   "fibra": 2.4,
+   "sodio": 0.0,
+   "calcio": 40.0,
+   "hierro": 0.1
+  },
+  {
+   "nombre": "Palta",
+   "kcal": 160.0,
+   "prot": 2.0,
+   "cho": 8.5,
+   "lip": 14.7,
+   "fibra": 6.7,
+   "sodio": 7.0,
+   "calcio": 12.0,
+   "hierro": 0.6
+  },
+  {
+   "nombre": "Pan integral",
+   "kcal": 252.0,
+   "prot": 12.4,
+   "cho": 42.7,
+   "lip": 3.5,
+   "fibra": 6.0,
+   "sodio": 455.0,
+   "calcio": 161.0,
+   "hierro": 2.5
+  },
+  {
+   "nombre": "Pan pita integral",
+   "kcal": 262,
+   "prot": 9.8,
+   "cho": 55.0,
+   "lip": 2.6,
+   "fibra": 7.4,
+   "sodio": 527,
+   "calcio": 15,
+   "hierro": 3.1
+  },
+  {
+   "nombre": "Panqueques de avena y espinaca",
+   "kcal": 177.35,
+   "prot": 11.03,
+   "cho": 16.98,
+   "lip": 7.19,
+   "fibra": 2.76,
+   "sodio": 98.88,
+   "calcio": 62.65,
+   "hierro": 2.55
+  },
+  {
+   "nombre": "Papa cocida",
+   "kcal": 87.0,
+   "prot": 1.9,
+   "cho": 20.1,
+   "lip": 0.1,
+   "fibra": 1.8,
+   "sodio": 4.0,
+   "calcio": 5.0,
+   "hierro": 0.3
+  },
+  {
+   "nombre": "Pastel de choclo de pollo",
+   "kcal": 128.07,
+   "prot": 10.26,
+   "cho": 13.76,
+   "lip": 4.74,
+   "fibra": 1.57,
+   "sodio": 26.52,
+   "calcio": 5.41,
+   "hierro": 0.64
+  },
+  {
+   "nombre": "Pechuga de pollo cocida",
+   "kcal": 165.0,
+   "prot": 31.0,
+   "cho": 0.0,
+   "lip": 3.6,
+   "fibra": 0.0,
+   "sodio": 74.0,
+   "calcio": 15.0,
+   "hierro": 1.0
+  },
+  {
+   "nombre": "Pepino",
+   "kcal": 15,
+   "prot": 0.7,
+   "cho": 3.6,
+   "lip": 0.1,
+   "fibra": 0.5,
+   "sodio": 2,
+   "calcio": 16,
+   "hierro": 0.3
+  },
+  {
+   "nombre": "Pera",
+   "kcal": 57,
+   "prot": 0.4,
+   "cho": 15.2,
+   "lip": 0.1,
+   "fibra": 3.1,
+   "sodio": 1,
+   "calcio": 9,
+   "hierro": 0.2
+  },
+  {
+   "nombre": "Pimentón",
+   "kcal": 31,
+   "prot": 1.0,
+   "cho": 6.0,
+   "lip": 0.3,
+   "fibra": 2.1,
+   "sodio": 4,
+   "calcio": 7,
+   "hierro": 0.4
+  },
+  {
+   "nombre": "Plátano",
+   "kcal": 89.0,
+   "prot": 1.1,
+   "cho": 22.8,
+   "lip": 0.3,
+   "fibra": 2.6,
+   "sodio": 1.0,
+   "calcio": 5.0,
+   "hierro": 0.3
+  },
+  {
+   "nombre": "Porotos negros cocidos",
+   "kcal": 132.0,
+   "prot": 8.9,
+   "cho": 23.7,
+   "lip": 0.5,
+   "fibra": 8.7,
+   "sodio": 1.0,
+   "calcio": 27.0,
+   "hierro": 2.1
+  },
+  {
+   "nombre": "Posta de vacuno cocida",
+   "kcal": 191.0,
+   "prot": 29.5,
+   "cho": 0.0,
+   "lip": 7.2,
+   "fibra": 0.0,
+   "sodio": 60.0,
+   "calcio": 6.0,
+   "hierro": 2.9
+  },
+  {
+   "nombre": "Pulpa de cerdo cocida",
+   "kcal": 175,
+   "prot": 28.0,
+   "cho": 0,
+   "lip": 6.5,
+   "fibra": 0,
+   "sodio": 55,
+   "calcio": 20,
+   "hierro": 1.0
+  },
+  {
+   "nombre": "Quesillo",
+   "kcal": 180,
+   "prot": 15.0,
+   "cho": 3.0,
+   "lip": 12.0,
+   "fibra": 0,
+   "sodio": 250,
+   "calcio": 400,
+   "hierro": 0.2
+  },
+  {
+   "nombre": "Repollo",
+   "kcal": 25,
+   "prot": 1.3,
+   "cho": 5.8,
+   "lip": 0.1,
+   "fibra": 2.5,
+   "sodio": 18,
+   "calcio": 40,
+   "hierro": 0.5
+  },
+  {
+   "nombre": "Salmón cocido",
+   "kcal": 206.0,
+   "prot": 22.1,
+   "cho": 0.0,
+   "lip": 12.4,
+   "fibra": 0.0,
+   "sodio": 61.0,
+   "calcio": 15.0,
+   "hierro": 0.3
+  },
+  {
+   "nombre": "Sandía",
+   "kcal": 30,
+   "prot": 0.6,
+   "cho": 7.6,
+   "lip": 0.2,
+   "fibra": 0.4,
+   "sodio": 1,
+   "calcio": 7,
+   "hierro": 0.2
+  },
+  {
+   "nombre": "Tallarines de quinoa cocidos",
+   "kcal": 143,
+   "prot": 3.5,
+   "cho": 30.0,
+   "lip": 1.5,
+   "fibra": 2.5,
+   "sodio": 5,
+   "calcio": 10,
+   "hierro": 1.0
+  },
+  {
+   "nombre": "Tomate",
+   "kcal": 18.0,
+   "prot": 0.9,
+   "cho": 3.9,
+   "lip": 0.2,
+   "fibra": 1.2,
+   "sodio": 5.0,
+   "calcio": 10.0,
+   "hierro": 0.3
+  },
+  {
+   "nombre": "Tortilla integral",
+   "kcal": 299,
+   "prot": 9.0,
+   "cho": 48.0,
+   "lip": 7.8,
+   "fibra": 7.0,
+   "sodio": 480,
+   "calcio": 120,
+   "hierro": 2.6
+  },
+  {
+   "nombre": "Yogur natural descremado",
+   "kcal": 56.0,
+   "prot": 5.7,
+   "cho": 7.7,
+   "lip": 0.2,
+   "fibra": 0.0,
+   "sodio": 77.0,
+   "calcio": 199.0,
+   "hierro": 0.1
+  },
+  {
+   "nombre": "Zanahoria cocida",
+   "kcal": 35,
+   "prot": 0.8,
+   "cho": 8.2,
+   "lip": 0.2,
+   "fibra": 3.0,
+   "sodio": 58,
+   "calcio": 30,
+   "hierro": 0.3
+  },
+  {
+   "nombre": "Zanahoria cruda",
+   "kcal": 41.0,
+   "prot": 0.9,
+   "cho": 9.6,
+   "lip": 0.2,
+   "fibra": 2.8,
+   "sodio": 69.0,
+   "calcio": 33.0,
+   "hierro": 0.3
+  },
+  {
+   "nombre": "Zapallo camote cocido",
+   "kcal": 40,
+   "prot": 0.9,
+   "cho": 10.5,
+   "lip": 0.1,
+   "fibra": 3.2,
+   "sodio": 4,
+   "calcio": 41,
+   "hierro": 0.6
+  },
+  {
+   "nombre": "Zapallo italiano",
+   "kcal": 17,
+   "prot": 1.2,
+   "cho": 3.1,
+   "lip": 0.3,
+   "fibra": 1.0,
+   "sodio": 8,
+   "calcio": 16,
+   "hierro": 0.4
+  }
+ ],
+ "recetas": {
+  "Muffins de huevo con espinaca": {
+   "Huevo entero": 100,
+   "Espinaca cruda": 30
+  },
+  "Muffins de huevo con champiñones": {
+   "Huevo entero": 100,
+   "Champiñones": 70
+  },
+  "Muffins de huevo con pimentón": {
+   "Huevo entero": 100,
+   "Pimentón": 60
+  },
+  "Panqueques de avena y espinaca": {
+   "Avena en hojuelas": 40,
+   "Huevo entero": 100,
+   "Espinaca cruda": 30
+  },
+  "Pastel de choclo de pollo": {
+   "Pollo molido cocido": 100,
+   "Pastelera de choclo": 190
+  },
+  "Frittata de espinaca y cebolla": {
+   "Huevo entero": 100,
+   "Espinaca cruda": 30,
+   "Cebolla": 60
+  },
+  "Frittata de espinaca": {
+   "Huevo entero": 100,
+   "Espinaca cruda": 30
+  },
+  "Frittata de zapallo italiano": {
+   "Huevo entero": 100,
+   "Zapallo italiano": 150
+  },
+  "Frittata de pimentón y tomate": {
+   "Huevo entero": 100,
+   "Pimentón": 60,
+   "Tomate": 120
+  },
+  "Jurel con huevo": {
+   "Jurel en conserva": 125,
+   "Huevo entero": 50
+  },
+  "Atún con huevo": {
+   "Atún en agua": 104,
+   "Huevo entero": 50
+  }
+ }
+}
