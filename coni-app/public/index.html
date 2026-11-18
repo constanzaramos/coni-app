@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#2f4a3a" />
+  <title>Mi Centro · Coni</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Pantalla de login -->
+  <section id="login" class="login" hidden>
+    <div class="login-card">
+      <h1>Mi Centro</h1>
+      <p>Gestiones, estudio, alimentación, Coramba y la casa en un solo lugar.</p>
+      <button id="btn-login" class="btn primary">Entrar con Google</button>
+    </div>
+  </section>
+
+  <!-- App -->
+  <div id="app" class="app" hidden>
+    <header class="topbar">
+      <h1 id="view-title">Hoy</h1>
+      <button id="btn-logout" class="btn ghost small">Salir</button>
+    </header>
+
+    <main id="view" class="view"></main>
+
+    <nav class="tabbar" aria-label="Secciones">
+      <button data-view="hoy" class="active"><span>☀️</span>Hoy</button>
+      <button data-view="gestiones"><span>📋</span>Gestiones</button>
+      <button data-view="estudio"><span>📚</span>Estudio</button>
+      <button data-view="comida"><span>🥗</span>Comida</button>
+      <button data-view="coramba"><span>💼</span>Coramba</button>
+      <button data-view="casa"><span>🏠</span>Casa</button>
+    </nav>
+  </div>
+
+  <div id="loading" class="loading">Cargando…</div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
